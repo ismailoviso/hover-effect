@@ -1,0 +1,210 @@
+      * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+
+      }
+
+      .descr_01 {
+          padding: 20px;
+          width: 80%;
+          background: #fff;
+          margin: 50px auto;
+          border-radius: 1px;
+          text-align: justify;
+          font-family: 'Roboto';
+          font-size: 20px;
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+
+      }
+
+      .descr_01::after {
+          content: 'ПРИВЕТ';
+          display: block;
+          position: absolute;
+          font-size: 40px;
+          color: #fff;
+          text-transform: uppercase;
+          opacity: 0;
+          transition: 0.5s;
+      }
+
+      .descr_01:hover::after {
+          opacity: 1;
+      }
+
+      .descr_01::before {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background: #ff0000a6;
+          left: 0;
+          top: -100%;
+          transition: 0.5s;
+
+      }
+
+      .descr_01:hover::before {
+          top: 0;
+      }
+
+      body {
+          background: #000;
+      }
+
+      .descr_02 {
+          padding: 20px;
+          width: 80%;
+          background: #fff;
+          margin: 50px auto;
+          font-family: 'Roboto';
+          border-radius: 1px;
+          text-align: justify;
+          font-size: 20px;
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+
+      }
+
+      .descr_02::after {
+          content: 'КАК ДЕЛА';
+          display: block;
+          position: absolute;
+          font-size: 40px;
+          color: #fff;
+          text-transform: uppercase;
+          opacity: 0;
+          transition: 0.5s;
+      }
+
+      .descr_02:hover::after {
+          opacity: 1;
+      }
+
+      .descr_02::before {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background: #ff0000a6;
+          left: 0;
+          top: 100%;
+          transition: 0.5s;
+
+      }
+
+      .descr_02:hover::before {
+          top: 0;
+      }
+
+      .descr_03 {
+          padding: 20px;
+          width: 80%;
+          font-family: 'Roboto';
+          background: #fff;
+          margin: 50px auto;
+          border-radius: 1px;
+          text-align: justify;
+          font-size: 20px;
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+
+      }
+
+      .descr_03::after {
+          content: 'hello guys';
+          display: block;
+          position: absolute;
+          font-size: 40px;
+          color: #fff;
+          text-transform: uppercase;
+          opacity: 0;
+          transition: 0.5s;
+      }
+
+      .descr_03:hover::after {
+          opacity: 1;
+      }
+
+      .descr_03::before {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background: #ff0000a6;
+          left: -100%;
+          top: 0;
+          transition: 0.5s;
+
+      }
+
+      .descr_03:hover::before {
+          left: 0%;
+      }
+
+      .descr_04 {
+          padding: 20px;
+          width: 80%;
+          background: #fff;
+          font-family: 'Roboto';
+          margin: 50px auto;
+          border-radius: 1px;
+          text-align: justify;
+          font-size: 20px;
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+
+      }
+
+      .descr_04::after {
+          content: 'КУСЬ';
+          display: block;
+          position: absolute;
+          font-size: 40px;
+          color: #fff;
+          text-transform: uppercase;
+          opacity: 0;
+          transition: 0.5s;
+      }
+
+      .descr_04:hover::after {
+          opacity: 1;
+      }
+
+      .descr_04::before {
+          content: '';
+          display: block;
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          background: #ff0000a6;
+          left: 100%;
+          top: 0;
+          transition: 0.5s;
+
+      }
+
+      .descr_04:hover::before {
+          left: 0;
+      }
